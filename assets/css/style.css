@@ -68,7 +68,7 @@ body{
 #content ul li::marker {
     color: #499D93;
     font-size: 18px;
-    
+
 }
 #road {
     background-image: url('../img/bg-rgb-2.jpg');
@@ -91,9 +91,14 @@ body{
     border-radius: 14px;
     padding: 10px 10px;
 }
-
+label{
+    font-size: 16px;
+}
+#email{
+    height: 40px;
+}
 #content img{
-    
+
 }
 footer{
     margin-top: 50px;
@@ -101,7 +106,7 @@ footer{
 }
 footer .thumbnail{
     border-radius: 30px;
-     background-image: linear-gradient(to top right, #E8E7EA,#E3EEEF, #EDDDE1);
+    background-image: linear-gradient(to top right, #E8E7EA,#E3EEEF, #EDDDE1);
     padding-top: 40px;
     padding-bottom: 60px;
 }
